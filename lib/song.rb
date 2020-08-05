@@ -51,10 +51,10 @@ end
 def self.alphabetical
   list = []
   @@all.each do |i|
-    list.push(i.name)
+    list.push(i)
   end
     
- list.sort 
+ list.name.sort 
  
 end
 
