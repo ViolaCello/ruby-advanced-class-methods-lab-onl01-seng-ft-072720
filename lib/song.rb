@@ -42,7 +42,7 @@ end
 def self.find_or_create_by_name(name)
   part_one = self.find_by_name(name)
   if part_one == false 
-    self.find_by_name(name)
+    self.create_by_name(name)
   end
 end
 
