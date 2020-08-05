@@ -61,6 +61,8 @@ a = name.split(".mp3")
 b = a[0].split("-")
 s.name = b[0]
 s.artist_name = b[1]
+s 
+
 end
 
 end
