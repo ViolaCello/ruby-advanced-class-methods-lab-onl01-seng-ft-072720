@@ -49,6 +49,6 @@ end
 
 def self.alphabetical
   list = @@all
-  list.sort_by
+  list.sort
 
 end
