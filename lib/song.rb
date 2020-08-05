@@ -32,7 +32,7 @@ def self.create_by_name(name)
 end
 
 def self.find_by_name(name)
-  result = false 
+  result = nil 
   @@all.each do |i|
     result = i if i.name == name 
   end
@@ -41,7 +41,7 @@ end
 
 def self.find_or_create_by_name(name)
   part_one = self.find_by_name(name)
-  if part_one == false 
+  if part_one == nil 
     part_two = self.create_by_name(name)
   else part_one 
   end
