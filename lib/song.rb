@@ -53,6 +53,7 @@ def self.alphabetical
  
 end
 
-def 
+def self.new_from_filename(name)
+  name_array = name.split("-", ".mp3")
 
 end
