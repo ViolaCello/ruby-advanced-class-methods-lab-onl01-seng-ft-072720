@@ -25,7 +25,7 @@ end
 
 def self.create_by_name(name)
   s = self.new
-  @name = name 
+  self.@name = name 
   
   @@all.push(s)
 end
