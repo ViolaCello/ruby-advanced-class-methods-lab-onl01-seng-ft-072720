@@ -54,6 +54,13 @@ def self.alphabetical
 end
 
 def self.new_from_filename(name)
- 
+  s = self.new 
+ a = []
+b = []
+a = name.split(".mp3")
+b = a[0].split("-")
+s.name = b[0]
+s.artist_name = b[1]
+end
 
 end
