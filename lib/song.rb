@@ -48,7 +48,15 @@ def self.find_or_create_by_name(name)
 end
 
 
-
+def self.alphabetical
+  list = []
+  @@all.each do |i|
+    list.push(i.name)
+  end
+    
+ list.sort 
+ 
+end
 
 
 end
