@@ -32,7 +32,7 @@ def self.create_by_name(name)
 end
 
 def self.find_by_name(name)
-  result = 0 
+  result = false 
   @@all.each do |i|
     result = i if i.name == name 
   end
