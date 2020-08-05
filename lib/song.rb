@@ -49,12 +49,7 @@ end
 
 
 def self.alphabetical
-  list = []
-  @@all.each do |i|
-    list.push(i)
-  end
-    
- list.name.sort 
+  @@all.sort_by {
  
 end
 
