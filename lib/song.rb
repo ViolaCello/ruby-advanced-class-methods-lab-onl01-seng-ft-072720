@@ -31,6 +31,10 @@ def self.create_by_name(name)
   s 
 end
 
-
+def self.find_by_name(name)
+  @@all.each do |i|
+    if i.name.find(name) then i 
+    end
+end
 
 end
