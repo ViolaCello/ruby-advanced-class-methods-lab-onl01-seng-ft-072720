@@ -35,6 +35,7 @@ def self.find_by_name(name)
   @@all.each do |i|
     result = i if i.name == name 
   end
+  result
 end
 
 end
